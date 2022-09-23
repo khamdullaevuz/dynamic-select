@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="/value" method="POST">
+    <form action="{{ route('value') }}" method="POST">
         @csrf
         <label>Country</label>
         <select name="country" id="country">

@@ -24,4 +24,4 @@ Route::post('city', [HomeController::class, 'city']);
 
 Route::post('value', function (Request $request) {
     dd($request->all());
-});
+})->name('value');
